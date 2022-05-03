@@ -11,8 +11,3 @@ else
  echo "配置文件存在" && \
  chown -R www.www /data/wwwroot
 fi
-
-    exec /usr/bin/supervisord -n -c /etc/supervisor/supervisord.conf
-else
-    exec "$@"
-fi
