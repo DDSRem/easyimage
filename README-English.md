@@ -4,7 +4,7 @@
 ## Project Introduction
 https://github.com/icret/EasyImages2.0
 ## Download
-DockerHub address:https://hub.docker.com/r/ddsderek/easyimage
+DockerHub:https://hub.docker.com/r/ddsderek/easyimage
 ## Deployment method
 ``` bash 
 docker run -itd \
