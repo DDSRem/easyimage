@@ -10,7 +10,7 @@ DockerHub:https://hub.docker.com/r/ddsderek/easyimage
 docker run -itd \
   --name easyimage \
   -p 8080:80 \
-  -v /root/data/docker_data/easyimage/config:/data/wwwroot/config/ \
-  -v /root/data/docker_data/easyimage/i:/data/wwwroot/i/ \
+  -v /root/data/docker_data/easyimage/config:/app/web/config \
+  -v /root/data/docker_data/easyimage/i:/app/web/i \
   ddsderek/easyimage
 ```
