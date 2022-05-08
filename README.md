@@ -14,3 +14,17 @@ docker run -itd \
   -v /root/data/docker_data/easyimage/i:/app/web/i \
   ddsderek/easyimage
 ```
+docker-compose
+```
+version: '3.3'
+services:
+  easyimage:
+    image: ddsderek/easyimage
+    container_name: easyimage
+    ports:
+      - '8080:80'
+    volumes:
+      - '/root/data/docker_data/easyimage/config:/app/web/config'
+      - '/root/data/docker_data/easyimage/i:/app/web/i'
+    restart: unless-stopped
+```
