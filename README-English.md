@@ -1,6 +1,6 @@
 # This project is a branch project of icret/EasyImages2.0, the Docker version of EasyImage
 
-### Chinese | [English](https://github.com/DDSRem/easyimage/blob/master/README-English.md)
+### English | [Chinese](https://github.com/DDSRem/easyimage/blob/master/README.md)
 
 ## 1. Project introduction
 
@@ -37,7 +37,7 @@ services:
     restart: unless-stopped
 ````
 
-## new version update
+## New version update
 
 - 2.6.5.1 **Official version** Fix the problem of maximum upload 20M
 - 2.6.5.0 **Official version** Sync update 2.6.5
@@ -46,7 +46,7 @@ services:
 - 2.6.2 **Beta ** Sync Update 2.6.2
 - 2.6.1 **Beta ** Sync Update 2.6.2
 
-## grateful
+## Grateful
 
 Project author: https://github.com/icret/EasyImages2.0
 
