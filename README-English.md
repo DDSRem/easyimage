@@ -41,10 +41,10 @@ services:
 
 - 2.6.5.1 **Official version** Fix the problem of maximum upload 20M
 - 2.6.5.0 **Official version** Sync update 2.6.5
-- 2.6.4 **Beta ** Sync Update 2.6.4
+- 2.6.4 **Beta** Sync Update 2.6.4
 - 2.6.2.1 **Official version** Sync update 2.6.2
-- 2.6.2 **Beta ** Sync Update 2.6.2
-- 2.6.1 **Beta ** Sync Update 2.6.2
+- 2.6.2 **Beta** Sync Update 2.6.2
+- 2.6.1 **Beta** Sync Update 2.6.2
 
 ## Grateful
 
