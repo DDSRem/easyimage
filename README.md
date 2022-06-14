@@ -1,11 +1,11 @@
 # 本项目是icret/EasyImages2.0的分支项目，Docker版本的EasyImage
 
 ### 中文 | [English](https://github.com/DDSRem/easyimage/blob/master/README-English.md)
-## 项目介绍
+## 1. 项目介绍
 https://github.com/icret/EasyImages2.0
-## 下载
+## 2. 下载
 DockerHub https://hub.docker.com/r/ddsderek/easyimage
-## 部署
+## 3. 部署
 ``` bash 
 docker run -itd \
   --name easyimage \
@@ -28,7 +28,17 @@ services:
       - '/root/data/docker_data/easyimage/i:/app/web/i'
     restart: unless-stopped
 ```
+## 版本更新
+
+- 2.6.5.1 **正式版** 修复最大上传20M问题
+- 2.6.5.0 **正式版** 同步更新2.6.5 
+- 2.6.4 **Beta测试版** 同步更新2.6.4
+- 2.6.2.1 **正式版** 同步更新2.6.2
+- 2.6.2 **Beta测试版** 同步更新2.6.2
+- 2.6.1 **Beta测试版** 同步更新2.6.2
+
 ## 感谢
+
 项目作者:https://github.com/icret/EasyImages2.0
 
 dockerfile环境配置参考:https://hub.docker.com/r/taobig/nginx-php74
