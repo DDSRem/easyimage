@@ -1,11 +1,15 @@
 # 本项目是icret/EasyImages2.0的分支项目，Docker版本的EasyImage
 
 ### 中文 | [English](https://github.com/DDSRem/easyimage/blob/master/README-English.md)
-## 1. 项目介绍
+## 项目介绍
 https://github.com/icret/EasyImages2.0
-## 2. 下载
+## 下载
 DockerHub https://hub.docker.com/r/ddsderek/easyimage
-## 3. 部署
+
+## 部署
+
+docker-cli
+
 ``` bash 
 docker run -itd \
   --name easyimage \
@@ -28,6 +32,30 @@ services:
       - '/root/data/docker_data/easyimage/i:/app/web/i'
     restart: unless-stopped
 ```
+## 更新
+
+docker-cli
+
+```
+docker stop easyimage
+docker rm easyimage
+docker image rm easyimage
+docker run -itd \
+  --name easyimage \
+  -p 8080:80 \
+  -v /root/data/docker_data/easyimage/config:/app/web/config \
+  -v /root/data/docker_data/easyimage/i:/app/web/i \
+  ddsderek/easyimage
+docker exec -it easyimage rm -rf /app/web/install
+```
+
+docker-compose
+
+```
+docker-compose pull
+docker exec -it easyimage rm -rf /app/web/install
+```
+
 ## 版本更新
 
 - 2.6.5.1 **正式版** 修复最大上传20M问题
