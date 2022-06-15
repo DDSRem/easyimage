@@ -53,6 +53,7 @@ docker-compose
 
 ```
 docker-compose pull
+docker-compose up -d
 docker exec -it easyimage rm -rf /app/web/install
 ```
 
