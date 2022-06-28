@@ -36,4 +36,4 @@ jobs:
             linux/amd64
           push: true
           tags: |
-            ${{ secrets.DOCKER_USERNAME }}/easyimage:latest
+            ${{ secrets.DOCKER_USERNAME }}/easyimage:test
